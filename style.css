@@ -1,0 +1,89 @@
+    body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/031/603/539/small_2x/bokeh-love-two-red-hearts-on-bokeh-background-the-red-heart-shapes-on-abstract-light-glitter-background-in-love-concept-for-romantic-moment-generative-ai-photo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Ensure it covers the entire area */
+  min-height: 100vh; /* Ensure it covers at least the full viewport height */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    .div1{
+        display:grid;
+        justify-content:center;
+        text-align: center;
+        align-items:center;
+        margin-top:13%;
+        z-index: 1;
+    }
+    input {
+        text-decoration: none;
+        padding-left: 6px;
+    }
+    .div2{
+        opacity: 0.9;
+        z-index: 2;
+        justify-content: center;
+        display: grid;
+        align-items: center;
+    }
+
+    .div3{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        display: grid;
+        align-items: center;
+        background:conic-gradient(deeppink 3deg, pink 0deg) ;
+    }
+    .div4{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        display: grid;
+        align-items: center;
+        justify-content: center ;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        margin-left:10px;
+    }
+  
+  
+
+.custom_input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.input {
+  disply:grid;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	padding-left: 35px;
+	outline: none;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 18px );
+-webkit-backdrop-filter: blur( 18px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	transition: .3s ease;
+  
+}
+
+.input:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+}
+
+.input::placeholder {
+	color: #DDDDDD;
+}
