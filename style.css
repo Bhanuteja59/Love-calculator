@@ -1,9 +1,9 @@
-    body {
+     body {
   background-image: url('https://github.com/Bhanuteja59/Love-calculator/blob/main/bokeh-love-two-red-hearts-on-bokeh-background-the-red-heart-shapes-on-abstract-light-glitter-background-in-love-concept-for-romantic-moment-generative-ai-photo-transformed.jpeg?raw=true');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; /* Ensure it covers the entire area */
-  min-height: 100vh; /* Ensure it covers at least the full viewport height */
+  background-size: cover;
+  height: 100vh;
   margin: 0;
   display: flex;
   justify-content: center;
